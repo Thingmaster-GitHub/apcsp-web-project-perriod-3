@@ -51,4 +51,5 @@ img {
   outline-style: solid;
   outline-color: #8a8a8a;
   outline-width: 1px;
+  outline-offset: -1px;
 }
