@@ -58,3 +58,6 @@ img {
 .pgli{
   display: inline;
 }
+li a {
+  display: block;
+}
