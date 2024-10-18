@@ -12,8 +12,11 @@ p {
   padding: 10px;
   color: #dddddd;
 }
-nav{
+.nav{
   background-color: #7777af;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .out {
   border: 15px solid #050509;
