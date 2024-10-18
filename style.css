@@ -17,6 +17,7 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 .out {
   border: 15px solid #050509;
@@ -52,12 +53,13 @@ img {
 .pg{
   color: #0000ff;
   border-style: solid;
-  border-color: #8a8a8a;
+  display: block;
   border-width: 1px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 .pgli{
   display: inline;
-}
-li a {
-  display: block;
+  float: left;
 }
