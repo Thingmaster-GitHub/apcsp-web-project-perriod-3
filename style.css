@@ -6,24 +6,11 @@ p {
   font-family: serif;
   padding: 10px;
 }
-h1 {
+.heading{
   font-weight: bold;
   font-family: sans-serif;
   padding: 10px;
-}
-h1{
   color: #dddddd;
-}
-h2{
-  font-family: sans-serif;
-  color: #dddddd;
-  padding: 10px;
-}
-}
-h4{
-  font-family: sans-serif;
-  color: #dddddd;
-  padding: 10px;
 }
 nav{
   background-color: #7777af;
