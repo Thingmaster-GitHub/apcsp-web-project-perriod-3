@@ -1,0 +1,26 @@
+name: Deploy Static Content to Arch Linux Server
+
+on:
+  push:
+    branches: ["main"]  # Trigger on pushes to the main branch
+  workflow_dispatch:  # Allow manual runs
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4  # Check out the repository's code
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH private key stored in GitHub Secrets
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}  # Known hosts entry
+
+      - name: Deploy Files to Arch Linux Server
+        run: |
+          # Create the target directory on the server
+          ssh -vvv -o StrictHostKeyChecking=no usr@96.236.219.156 "mkdir -p /usr/share/nginx/html"
+          # Sync files to the server
+          rsync -avz --delete ./ usr@96.236.219.156:/usr/share/nginx/html/
