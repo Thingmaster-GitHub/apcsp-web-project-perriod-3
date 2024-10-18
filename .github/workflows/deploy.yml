@@ -21,6 +21,6 @@ jobs:
       - name: Deploy Files to Arch Linux Server
         run: |
           # Create the target directory on the server
-          ssh -vvv -o StrictHostKeyChecking=no user@96.236.219.156 "mkdir -p /usr/share/nginx/html"
+          ssh -vvv -o StrictHostKeyChecking=no usr@96.236.219.156 "mkdir -p /usr/share/nginx/html"
           # Sync files to the server
           rsync -avz --delete ./ usr@96.236.219.156:/usr/share/nginx/html/
