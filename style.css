@@ -54,13 +54,13 @@ li a:hover {
   background-color: #112;
   color: #ff8;
 }
-a:active{
+.pg a:active{
   color: #88f
 }
-a:hover {
+.pg a:hover {
   color: #00f;
 }
-a:visited {
+.pg a:visited {
     color:ff00ff;
 }
 .pg{
