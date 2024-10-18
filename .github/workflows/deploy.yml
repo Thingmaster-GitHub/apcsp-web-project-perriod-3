@@ -16,7 +16,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: ${{ secrets.KNOWN_HOSTS }} # Optional, configure known hosts if needed
+          known_hosts: 'github.com' # Optional, configure known hosts if needed
 
       - name: Deploy files to Arch Linux server
         run: |
