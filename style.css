@@ -54,6 +54,7 @@ li a:hover {
   background-color: #112;
   color: #ff8;
 }
+/*include links in a paragraph with the pg class to apply formating*/
 .pg a:active{
   color: #88f
 }
