@@ -48,8 +48,7 @@ img {
 }
 .pg{
   color: #0000ff;
-  outline-style: solid;
-  outline-color: #8a8a8a;
-  outline-width: 1px;
-  outline-offset: -1px;
+  border-style: solid;
+  boarder-color: #8a8a8a;
+  boarder-width: 1px;
 }
