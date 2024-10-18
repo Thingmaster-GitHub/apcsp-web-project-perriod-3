@@ -50,18 +50,6 @@ img {
 .lbs{
   color: #5555ff;
 }
-.pg{
-  color: #008;
-  display: block;
-  border-width: 1px;
-  text-align: center;
-  padding: 1px 9px;
-  text-decoration: none;
-}
-.pgli{
-  display: inline;
-  float: left;
-}
 li a:hover {
   background-color: #112;
   color: #ff8;
@@ -74,4 +62,16 @@ a:hover {
 }
 a:visited {
     color:ff00ff;
+}
+.pg{
+  color: #008;
+  display: block;
+  border-width: 1px;
+  text-align: center;
+  padding: 1px 9px;
+  text-decoration: none;
+}
+.pgli{
+  display: inline;
+  float: left;
 }
