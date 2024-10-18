@@ -51,7 +51,7 @@ img {
   color: #5555ff;
 }
 .pg{
-  color: #0000ff;
+  color: #008;
   display: block;
   border-width: 1px;
   text-align: center;
@@ -64,4 +64,5 @@ img {
 }
 li a:hover {
   background-color: #112;
+  color: #ff8;
 }
