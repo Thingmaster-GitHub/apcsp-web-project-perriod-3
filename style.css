@@ -66,3 +66,9 @@ li a:hover {
   background-color: #112;
   color: #ff8;
 }
+a{
+  color: #88f
+}
+a:hover {
+  color: #00f;
+}
