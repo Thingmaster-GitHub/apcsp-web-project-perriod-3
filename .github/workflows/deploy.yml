@@ -22,4 +22,4 @@ jobs:
       - name: Deploy files to Arch Linux server
         run: |
           ssh -o StrictHostKeyChecking=no user@96.236.219.156 "mkdir -p /usr/share/nginx/html"
-          rsync -avz --delete ./ usr@96.236.219.156:/usr/share/nginx/html/
+          rsync -avz --delete ./ user@96.236.219.156:/usr/share/nginx/html/
