@@ -5,6 +5,7 @@ p {
   color: #dddddd;
   font-family: serif;
   padding: 10px;
+  font-weight: normal;
 }
 .heading{
   font-weight: bold;
