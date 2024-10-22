@@ -81,3 +81,6 @@ li a:hover {
   display: inline;
   float: left;
 }
+hr {
+  border-top: 1px solid #889;
+}
