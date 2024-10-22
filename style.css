@@ -25,6 +25,11 @@ p {
   padding: 0px;
   margin: 0px;
 }
+mark {
+  font-weight: bold; 
+  background-color: #0000FF;
+  color: #dddddd;
+}
 img {
   display: block;
   margin-left: auto;
@@ -75,9 +80,4 @@ li a:hover {
 .pgli{
   display: inline;
   float: left;
-}
-mark {
-  font-weight: bold; 
-  background-color: #0000FF;
-  color: #dddddd;
 }
