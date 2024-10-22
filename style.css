@@ -76,6 +76,6 @@ li a:hover {
   display: inline;
   float: left;
 }
-.bold{
+mark{
   font-weight: bold;
 }
