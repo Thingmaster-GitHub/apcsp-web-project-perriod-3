@@ -25,7 +25,7 @@ p {
   padding: 0px;
   margin: 0px;
 }
-mark {
+.bold {
   font-weight: bold; 
   background-color: #0000FF;
   color: #dddddd;
