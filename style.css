@@ -91,15 +91,19 @@ hr {
 .center{
   text-align: center;
 }
-.pgnext {
-  color: #ffd
-  float: left;
-}
 .nav{
   background-color: #040483;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+.flp{
+  display: inline;
+  float: left;
+}
+.fln{
+  display: inline;
+  float: right;
 }
 
