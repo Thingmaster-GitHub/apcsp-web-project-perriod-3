@@ -107,8 +107,8 @@ hr {
   float: right;
 }
 .hrnav{
-  margin: 0;
-  padding: 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 .ft{
   color: #008;
