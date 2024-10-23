@@ -92,11 +92,15 @@ hr {
   text-align: center;
 }
 .footer{
-    background-color: #112;
-    color: #008;
-    display: block;
-    border-width: 1px;
-    text-align: center;
-    padding: 1px 9px;
-    text-decoration: none;
+  background-color: #040420;
+  color: #008;
+  display: block;
+  border-width: 1px;
+  text-align: center;
+  padding: 1px 9px;
+  text-decoration: none;
+}
+.pgnext {
+  color: #ffd
+  float: left;
 }
