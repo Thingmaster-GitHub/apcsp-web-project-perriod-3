@@ -106,4 +106,8 @@ hr {
   display: inline;
   float: right;
 }
+.hrnav{
+  margin: 0;
+  padding: 0;
+}
 
